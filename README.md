@@ -1,1 +1,7 @@
 # Variables-Funciones-ObjetosJS
+
+
+
+WWWWWWWWWWWWWW
+LLLLLLLLLL
+LLLKKKKKK
