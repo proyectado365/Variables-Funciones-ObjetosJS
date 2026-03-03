@@ -4,7 +4,7 @@ let menu = [
  { nombre: "Lomo saltado", precio: 18, stock: 3 },
  { nombre: "Sopa", precio: 8, stock: 10 },
  { nombre: "Pescado frito", precio: 15, stock: 7 },
- { nombre: "Chaufa de pollo", precio: 12, stock: 5 }
+ { nombre: "Chaufa de Pollo", precio: 12, stock: 5 }
 ];
 
 // 2) FUNCIÓN: renderizar (mostrar) el menú en pantalla
