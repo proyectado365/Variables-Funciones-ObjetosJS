@@ -1,3 +1,5 @@
+// FASE 3 - OBJETOS
+
 // MINI RPG
 
 let jugador = {
