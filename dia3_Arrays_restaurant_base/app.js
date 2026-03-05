@@ -48,12 +48,19 @@ function buscarPlatoPorNombre(nombre) {
   //${plato.nombre} - S/ ${plato.precio}-interpolacion variable concat
 }
 
+
 function filtrarStockbajo() {
   return menu.filter(m = m.stock <= 3)
 }
 
 function obtenerResumenMenu() {
   return menu.map(m => `${m.nombre} - S/. ${m.precio}`)
+}
+
+
+function filtrarStockBajo(stock){
+
+  
 }
 
 
