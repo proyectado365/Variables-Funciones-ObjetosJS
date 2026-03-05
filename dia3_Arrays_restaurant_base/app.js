@@ -38,6 +38,16 @@ function contarPlatos() {
   output.innerHTML += `<p>Total de platos en el menú: ${menu.length}</p>`;
 }
 
+function buscarPlatoPorNombre(nombre){
+  
+  let plato = menu.find(platoBuscado => platoBuscado.nombre.toLowerCase() === nombre.toLowerCase());
+  if(!plato) {
+    return "plato no encontrado";
+  }
+  return plato.nombre + " $ " + plato.precio;
+  //${plato.nombre} - S/ ${plato.precio}-interpolacion variable concat
+}
+
 
 // 4) EVENTOS: conectar botones con funciones
 document.getElementById("btnMostrar").addEventListener("click", () => {
