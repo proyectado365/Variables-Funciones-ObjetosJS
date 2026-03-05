@@ -32,7 +32,7 @@ function agregarPlatoDemo() {
  menu.push(nuevoPlato);
 }
 
-// para contar platos----------------------------------------------------------
+// para contar platos------
 function contarPlatos() {
   const output = document.getElementById("output");
   output.innerHTML += `<p>Total de platos en el menú: ${menu.length}</p>`;
